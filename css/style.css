@@ -1,0 +1,104 @@
+/* CSS Huiswerk NHA Les 15 */
+.page{
+  display:block;
+  padding-top:0;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+  width:80vw;
+  height: 100vh;
+}
+body{
+  margin:0;
+  padding:0;
+
+}
+header{
+  display:block;
+  padding-top:0;
+  position: relative;
+  height: 10vh;
+  background-color:#A9A9A9;
+}
+
+.content{
+  display:block;
+  padding-top:0;
+  position: relative;
+  height: 80vh;
+  background-color: #DCDCDC;
+  text-align: center;
+}
+
+footer{
+    position: relative;
+    top:0px;
+  display:block;
+  padding-bottom:0;
+  height: 10vh;
+  background-color:#A9A9A9;
+}
+
+
+ul{
+margin: 0px;
+}
+
+ul a{
+color: white;
+text-decoration: none;
+
+}
+li{
+display: inline-block;
+height: 22px;
+width: 100px;
+padding: 12px;
+text-align: center;
+font-family: arial,sans-serif;
+color: white;
+border-left: 5px solid white;
+border-right: 1px solid white;
+background-color: black;
+margin-top: 15px;
+border-radius: 30px;
+
+}
+li:hover{
+  border-left: 1px solid white;
+  border-right:5px solid white;
+  background-color: black;
+  font-weight: bold;
+}
+form,table{
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+    font-family: arial;
+    width: 400px;
+    text-align: center;
+
+}
+input[type="text"], input[type="email"], textarea, button{
+
+  display: block;
+  margin: 15px 10px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px lightgrey;}
+  textarea{
+    height: 100px;
+    padding: 5px 4px;}
+button:active{
+  background-color:darkgrey;
+  color: white;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px black;}
+#cr{
+  position:absolute;
+  bottom:0;
+  right:0;
+  font-family: sans-serif;
+
+}
